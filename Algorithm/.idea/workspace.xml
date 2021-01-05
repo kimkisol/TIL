@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/암호화_기출.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/암호화_기출.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programmers/SQL/DATETIME에서 DATE로 형 변환.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
@@ -70,9 +69,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/Baekjun/10819_차이를최대로.py" />
         <option value="$PROJECT_DIR$/Programmers/암호화_기출.py" />
         <option value="$PROJECT_DIR$/Programmers/SQL/DATETIME에서 DATE로 형 변환.sql" />
+        <option value="$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql" />
       </list>
     </option>
   </component>
@@ -694,13 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/SQL/DATETIME에서 DATE로 형 변환.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
