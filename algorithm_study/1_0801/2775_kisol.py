@@ -12,4 +12,3 @@ for i in range(T):
     result = people[stage][room]
 
     print(result)
-    

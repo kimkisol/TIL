@@ -1,6 +1,6 @@
-# import sys
-# sys
-# input = sys.stdin.readline
+import sys
+
+input = sys.stdin.readline
 
 T = int(input())
 points = []
