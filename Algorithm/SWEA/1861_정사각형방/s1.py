@@ -44,5 +44,6 @@ for t in range(1, T + 1):
     for i in range(1, N * N + 1):
         if not visited[i]:
             dfs(i, i, p[i][0], p[i][1], 1)
+    print(p)
 
     print('#{} {} {}'.format(t, start, max_len))

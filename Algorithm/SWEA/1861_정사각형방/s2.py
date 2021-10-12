@@ -32,12 +32,11 @@ T = int(input())
 for t in range(1, T + 1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
-    p = [0] + [[0, 0] for _ in range(N * N)]  # 행, 열 좌표
     visited = [0] * (N * N + 1)
     dr = [0, 1, 0, -1]  # 우하좌상
     dc = [1, 0, -1, 0]
     max_len = 0
-    start = N * N
+    start = N * N  # 시작 지점
 
     # 1~N*N까지 좌표 작성
     for i in range(N):
