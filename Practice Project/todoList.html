@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h2>My Todo List</h2>
+    <select v-model="todoStatus">
+      <option value="all">전체</option>
+      <option value="notCompleted">미완료</option>
+      <option value="completed">완료</option>
+    </select>
+    <input v-model.trim="content" @keyup.enter="addTodo" type="text">
+    <button @click="addTodo">+</button>
+    <hr>
+    <li v-for="todo in todoListByStatus" :key="todo.date">
+      <span :class="{ completed: todo.completed }">{{ todo.content }}</span>
+      <input :checked="todo.completed" @click="toggleTodo(todo)" type="checkbox">
+    </li>
+    <br>
+    <button @click="deleteCompletedTodo">완료된 할 일 지우기</button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const STORAGE_KEY = 'my-todo-list'
+    const todoStorage = {
+      fetchTodos: function () {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []
+      },
+      saveTodo: function (todoList) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(todoList))
+      }
+    }
+    const app = new Vue({
+      el: '#app',
+      data: {
+        content: '',
+        todoList: todoStorage.fetchTodos(),
+        todoStatus: 'all',
+      },
+      methods: {
+        addTodo: function () {
+          if (this.content) {
+            const todo = {
+              content: this.content,
+              completed: false,
+              date: new Date().getTime(),
+            }
+            console.log(todo)
+            this.todoList.push(todo)
+            this.content = ''
+          } else {
+            alert('빈값이야!')
+          }
+        },
+        toggleTodo: function (todo) {
+          todo.completed = !todo.completed
+        },
+        deleteCompletedTodo: function (todo) {
+          this.todoList = this.todoList.filter((todo) => {
+            return !todo.completed
+          })
+        }
+      },
+      computed: {
+        todoListByStatus: function () {
+          return this.todoList.filter((todo) => {
+            if (this.todoStatus === 'notCompleted') {
+              return !todo.completed
+            } else if (this.todoStatus === 'completed') {
+              return todo.completed
+            }
+            return true
+          })
+        }
+      },
+      watch: {
+        todoList: {
+          handler: function (todoList) {
+            todoStorage.saveTodo(todoList)
+          }
+        }
+      }
+    })
+  </script>
+</body>
+</html>
