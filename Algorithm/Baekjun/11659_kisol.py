@@ -1,30 +1,20 @@
 import sys
 
-# 57112KB / 376ms
+# 39468KB / 304ms
 # input = sys.stdin.readline
 '''
 
 '''
-sys.stdin = open('input_21318.txt')
+sys.stdin = open('input_11659.txt')
 
-T = int(input())
+N, M = map(int, input().split())
+nums = [0] + list(map(int, input().split()))
 
-for t in range(1, T + 1):
-    N = int(input())
-    arr = [0] + list(map(int, input().split()))
-    Q = int(input())
-    questions = [list(map(int, input().split())) for _ in range(Q)]
-    Q_level = [0] * (N + 1)  # 누적으로 높은 난이도가 나온 횟수 저장
+# 누적합 구하기
+for idx in range(2, N + 1):
+    nums[idx] += nums[idx - 1]
 
-    # 1~마지막에서 두번째값
-    for i in range(1, N):
-        Q_level[i] = Q_level[i - 1]
-        if arr[i] > arr[i + 1]:
-            Q_level[i] += 1
-    # 마지막 값
-    Q_level[N] = Q_level[N - 1]
-
-    # 실수 개수 출력
-    for i in range(Q):
-        s, e = questions[i][0] - 1, questions[i][1] - 1
-        print(Q_level[e] - Q_level[s])
+# 구간합 M번 구하기
+for _ in range(M):
+    i, j = map(int, input().split())
+    print(nums[j] - nums[i - 1])
