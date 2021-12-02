@@ -4,7 +4,7 @@ import sys
 # 237652KB / 568ms PyPy3
 # input = sys.stdin.readline
 '''
-a값은 소수점 버린거 빼고 나머지값이 할당돼야 함
+a값은 소수점 버린거 빼고 나머지값이 할당돼야 함 ㅠㅠ (0.55 아님)
 '''
 
 sys.stdin = open('input_20057.txt')
@@ -18,22 +18,22 @@ def Tornado():
             d_effects = effects[d]
             for _ in range(l):  # 길이 횟수만큼 실행
                 r, c = r + dr[d], c + dc[d]
-                sand = arr[r][c]
-                remain = arr[r][c]
+                sand = arr[r][c]  # 전체 모래 양
+                remain = arr[r][c]  # a에 할당할 남은 모래양
 
                 if sand:
-                    for i in range(1, 10):
-                        nr, nc = r + d_effects[i][0], c + d_effects[i][1]
-                        added_sand = int(sand * d_effects[i][2])
-                        if 0 <= nr < N and 0 <= nc < N:
-                            arr[nr][nc] += added_sand
+                    for i in range(1, 10):  # a영역 제외 비율만큼 모래 날리는 공간
+                        nr, nc = r + d_effects[i][0], c + d_effects[i][1]  # 해당 좌표에 행, 열 값 더하기
+                        added_sand = int(sand * d_effects[i][2])  # 전체 모래 양에 비율만큼 곱하고 소수점 버리기
+                        if 0 <= nr < N and 0 <= nc < N:  # 범위 안이라면
+                            arr[nr][nc] += added_sand  # 그 좌표에 해당 모래 양 더하기
                         else:
-                            ans += added_sand
-                        remain -= added_sand
+                            ans += added_sand  # 밖으로 나간 양에 더하기
+                        remain -= added_sand  # a에 할당할 남은 모래양에서 빼주기
 
-                    nr, nc = r + d_effects[0][0], c + d_effects[0][1]
+                    nr, nc = r + d_effects[0][0], c + d_effects[0][1]  # a영역
                     if 0 <= nr < N and 0 <= nc < N:
-                        arr[nr][nc] += remain
+                        arr[nr][nc] += remain  # a에 할당할 남은 모래양 더하기
                     else:
                         ans += remain
 
