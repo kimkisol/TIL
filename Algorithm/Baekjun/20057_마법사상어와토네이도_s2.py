@@ -1,6 +1,7 @@
 import sys
 
-# KB / ms
+# 43044KB / 2420ms Python3
+# 237652KB / 568ms PyPy3
 # input = sys.stdin.readline
 '''
 a값은 소수점 버린거 빼고 나머지값이 할당돼야 함
@@ -17,8 +18,6 @@ def Tornado():
             d_effects = effects[d]
             for _ in range(l):  # 길이 횟수만큼 실행
                 r, c = r + dr[d], c + dc[d]
-                if (r, c) == (0, -1):
-                    return
                 sand = arr[r][c]
                 remain = arr[r][c]
 
@@ -39,6 +38,8 @@ def Tornado():
                         ans += remain
 
                     arr[r][c] = 0  # y의 모래는 0으로
+            if (r, c) == (0, -1):
+                return
             d = (d + 1) % 4
         l += 1
 
