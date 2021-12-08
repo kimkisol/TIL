@@ -1,9 +1,9 @@
 import sys
-
+sys.setrecursionlimit(10**9)
 # 37864KB / 1628ms
 # input = sys.stdin.readline
 '''
-
+런타임에러 재귀문제
 '''
 
 sys.stdin = open('input_2468.txt')
