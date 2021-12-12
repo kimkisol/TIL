@@ -21,7 +21,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -38,12 +42,13 @@
         <option value="$PROJECT_DIR$/Baekjun/input_20057.txt" />
         <option value="$PROJECT_DIR$/Baekjun/20057_마법사상어와토네이도_s2.py" />
         <option value="$PROJECT_DIR$/Programmers/SQL/없어진기록찾기.sql" />
+        <option value="$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2183" />
-    <option name="y" value="192" />
+    <option name="x" value="-2053" />
+    <option name="y" value="172" />
     <option name="width" value="1938" />
     <option name="height" value="880" />
   </component>
@@ -206,7 +211,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2130" y="154" width="1550" height="704" extended-state="0" />
+    <frame x="-2026" y="138" width="1550" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12491738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,7 +343,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
