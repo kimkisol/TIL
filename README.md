@@ -26,7 +26,7 @@
 
 💡 **노션 사이트**
 
-- https://www.notion.so/WSS-HOME-9e1ffc48158646ed9b93d2c8bb5517a4
+- https://www.notion.so/Home-c433bc4d14e94fb3b185da5d48394fe9
 
 💜 **CS 주제**
 
@@ -35,6 +35,7 @@
 💎 **교재**
 
 - 운영체제 : 쉽게 배우는 운영체제
+- 네트워크 : 네트워크 개론
 - 그 외 미정
 
 📕 **진행 방법**
