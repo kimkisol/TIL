@@ -1,33 +1,76 @@
 import sys
 
-# 29200KB / 68ms Python3
+# KB / ms Python3
 # input = sys.stdin.readline
 '''
-
+트리의 지름이란, 트리에서 임의의 두 점 사이의 거리 중 가장 긴 것
 '''
 
-sys.stdin = open('input_9934.txt')
+sys.stdin = open('input_1167.txt')
 
 
-def in_order(node, k):  # (root의 node 번호, level 들어갈 때 빼줄 2**k에서 지수)
-    if 0 <= node < max_node:  # node 번호가 0~마지막 번호 사이면
-        if k >= 0:  # 마지막 단계 0 이상이면
-            in_order(node - 2 ** k, k - 1)  # 왼쪽 일때는 2 ** k를 빼주고, level이 들어가니까 -1 처리
-        tree[k + 1].append(arr[node])  # 각 레벨에 빌딩 번호 추가
-        if k >= 0:
-            in_order(node + 2 ** k, k - 1)
+def bfs(v):
+    global max_d
+    visited = [0] * (V + 1)
+    Q = []
+    Q.append(v)
+    visited[v] = 1
+
+    while Q:
+        t = Q.pop(0)
+        for i in range(1, len(tree[t])):
+            if not visited[i]:
+                visited[i] += tree[t][i][1]
+                if visited[i] > max_d:
+                    max_d = visited[i]
+                Q.append(i)
 
 
-T = int(input())
+V = int(input())
+arrs = [list(map(int, input().split())) for _ in range(V)]
+tree = [[] for _ in range(V + 1)]
+max_d = 0
 
-for _ in range(T):
-    K = int(input())
-    arr = list(map(int, input().split()))
-    max_node = 2 ** K
-    root = (max_node - 1) // 2
-    tree = [[] for _ in range(K)]  # 각 level별로 빌딩 번호 저장할 tree
+# 트리 만들기
+for arr in arrs:
+    idx = 1
+    node = arr[0]
+    while arr[idx] != -1:
+        tree[node].append((arr[idx], arr[idx + 1]))
+        idx += 2
 
-    in_order(root, K - 2)
+for i in range(1, V + 1):
+    bfs(i)
 
-    for i in range(K - 1, -1, -1):  # 역순으로 출력
-        print(*tree[i])
+print(max_d)
+
+# 메모리 초과
+
+# def dfs(node, d):
+#     global max_d
+#     if max_d < d:
+#         max_d = d
+#
+#     for i in range(1, V + 1):
+#         if tree[node][i] and not visited[node][i]:
+#             visited[node][i] = 1
+#             visited[i][node] = 1
+#             dfs(i, d + tree[node][i])
+#
+#
+# V = int(input())
+# arrs = [list(map(int, input().split())) for _ in range(V)]
+# tree = [[0] * (V + 1) for _ in range(V + 1)]
+# visited = [[0] * (V + 1) for _ in range(V + 1)]
+# max_d = 0
+#
+# # 트리 만들기
+# for arr in arrs:
+#     idx = 1
+#     node = arr[0]
+#     while arr[idx] != -1:
+#         tree[node][arr[idx]] = arr[idx + 1]
+#         idx += 2
+#
+# for i in range(1, V + 1):
+#     dfs(i, 0)
