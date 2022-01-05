@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjun/10819_차이를최대로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/10819_차이를최대로.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1246" />
+          <entry key="py" value="1278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1246" />
+          <entry key="Python" value="1278" />
         </counts>
       </usages-collector>
     </session>
@@ -51,10 +49,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Baekjun/10819_차이를최대로.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="468">
+              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
               <folding>
-                <marker date="1641398335171" expanded="true" signature="978:1205" ph="..." />
+                <marker date="1641399130215" expanded="true" signature="978:1205" ph="..." />
               </folding>
             </state>
           </provider>
@@ -660,10 +658,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Baekjun/10819_차이를최대로.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="468">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
           <folding>
-            <marker date="1641398335171" expanded="true" signature="978:1205" ph="..." />
+            <marker date="1641399130215" expanded="true" signature="978:1205" ph="..." />
           </folding>
         </state>
       </provider>

@@ -71,6 +71,7 @@ print(res)
 # print(res)
 
 
+# 완전탐색으로 안해도 될까 싶어 시도해봤던 방법
 # for i in range(len(arr) - 1):
 #     idx = i
 #     if i % 2:
