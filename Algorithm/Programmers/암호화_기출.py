@@ -1,8 +1,3 @@
-import sys
-
-input = sys.stdin.readline
-
-
 def solution(sentence, keyword, skips):
     arr = list(sentence)
     idx_sentence = 0
