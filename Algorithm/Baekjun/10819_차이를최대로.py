@@ -11,11 +11,9 @@ sys.stdin = open('input_10819.txt')
 
 def permutations(idx, temp):
     global res
-
     if idx == len(arr):
         if temp > res:
             res = temp
-
     for i in range(N):
         if not visited[i]:
             visited[i] = 1
