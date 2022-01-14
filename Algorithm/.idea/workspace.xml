@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/SQL/보호소에서 중성화한 동물.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +15,7 @@
     <session id="1507226070">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
@@ -23,30 +24,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
-          <entry key="sql" value="3" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="18" />
+          <entry key="sql" value="8" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="DBN-SQL" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="14" />
+          <entry key="DBN-SQL" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="18" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="11" />
-          <entry key="py" value="2884" />
+          <entry key="dummy" value="17" />
+          <entry key="py" value="3060" />
           <entry key="sql" value="1" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="2884" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="3060" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -55,22 +57,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjun/10819_차이를최대로.py">
+        <entry file="file://$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <marker date="1641470961984" expanded="true" signature="976:1203" ph="..." />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Programmers/SQL/동명 동물 수 찾기.sql">
+        <entry file="file://$PROJECT_DIR$/Programmers/후보키(구글링).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="407">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjun/input_14600.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjun/2468_안전영역.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="16" lean-forward="true" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -121,13 +138,17 @@
         <option value="$PROJECT_DIR$/Programmers/N-Queen_기출.py" />
         <option value="$PROJECT_DIR$/Baekjun/10819_차이를최대로.py" />
         <option value="$PROJECT_DIR$/Programmers/SQL/동명 동물 수 찾기.sql" />
+        <option value="$PROJECT_DIR$/Programmers/SQL/보호소에서 중성화한 동물.sql" />
+        <option value="$PROJECT_DIR$/Programmers/후보키.py" />
+        <option value="$PROJECT_DIR$/Baekjun/input_14600.txt" />
+        <option value="$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2473" />
-    <option name="y" value="381" />
-    <option name="width" value="2420" />
+    <option name="x" value="-1923" />
+    <option name="y" value="93" />
+    <option name="width" value="1838" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
@@ -142,6 +163,11 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Baekjun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -166,9 +192,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\SQL" />
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\SQL" />
       <recent name="C:\Users\kimkisol\ssafy-6\99_etc\--------------github--------------\TIL\Algorithm\Programmers\SQL" />
       <recent name="C:\Users\kimkisol\ssafy-6\99_etc\--------------github--------------\TIL\Algorithm\Baekjun" />
     </key>
@@ -185,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10819_차이를최대로">
+  <component name="RunManager" selected="Python.14600_샤워실바닥깔기">
     <configuration name="10819_차이를최대로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,27 +233,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1167_트리의지름" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/1167_트리의지름.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="14503_로봇청소기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,6 +246,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/14503_로봇청소기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14600_샤워실바닥깔기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,19 +318,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1167_트리의지름" />
       <item itemvalue="Python.14503_로봇청소기" />
       <item itemvalue="Python.2573_빙산" />
       <item itemvalue="Python.10819_차이를최대로" />
       <item itemvalue="Python.암호화_기출" />
+      <item itemvalue="Python.14600_샤워실바닥깔기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14600_샤워실바닥깔기" />
         <item itemvalue="Python.10819_차이를최대로" />
         <item itemvalue="Python.암호화_기출" />
         <item itemvalue="Python.2573_빙산" />
         <item itemvalue="Python.14503_로봇청소기" />
-        <item itemvalue="Python.1167_트리의지름" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +349,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Browser" order="0" weight="0.32980832" />
       <window_info id="Project Explorer" order="1" />
@@ -438,9 +463,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjun/10950_kisol.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjun/11650_kisol.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programmers/SQL/있었는데요없었습니다.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/3_이진트리순회/s1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -588,20 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물(1).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Programmers/SQL/헤비유저가소유한장소.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjun/input_2573.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -647,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/N으로표현_kisol.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -663,13 +657,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/전력망을둘로나누기_kisol.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjun/2468_안전영역.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/N-Queen_kisol.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,10 +692,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/있었는데요없었습니다.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/헤비유저가소유한장소.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물(1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Programmers/SQL/동명 동물 수 찾기.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="13" lean-forward="true" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/보호소에서 중성화한 동물.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/2468_안전영역.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" lean-forward="true" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/input_14600.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/후보키(구글링).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
