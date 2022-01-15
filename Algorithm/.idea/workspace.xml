@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/이름이없는동물의아이디.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/이름이없는동물의아이디.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/SQL/NULL처리하기.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +24,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="27" />
-          <entry key="sql" value="9" />
+          <entry key="sql" value="10" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="DBN-SQL" value="7" />
+          <entry key="DBN-SQL" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="27" />
           <entry key="SQL" value="2" />
@@ -55,13 +55,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programmers/SQL/이름이없는동물의아이디.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Programmers/SQL/NULL처리하기.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -321,7 +326,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="589" y="131" width="1472" height="880" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Browser" order="0" weight="0.32980832" />
       <window_info id="Project Explorer" order="1" />
@@ -453,7 +457,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjun/20057.py" />
     <entry file="file://$PROJECT_DIR$/Baekjun/11725_kisol.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -773,6 +776,9 @@
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/SQL/NULL처리하기.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
