@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjun/input_15649.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjun/6443_애너그램.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjun/input_6443.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjun/15649_N과M.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/15649_N과M.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,37 +20,37 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="27" />
           <entry key="sql" value="8" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="6" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="20" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="27" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="py" value="3379" />
+          <entry key="py" value="4264" />
           <entry key="sql" value="1" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="27" />
-          <entry key="Python" value="3379" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="4264" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -57,10 +59,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Baekjun/15649_N과M.py">
+        <entry file="file://$PROJECT_DIR$/Baekjun/6443_애너그램.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="612">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -68,17 +70,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="311" selection-start-line="311" selection-end-line="311" />
+            <state relative-caret-position="206">
+              <caret line="292" selection-start-line="292" selection-end-line="292" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjun/input_15649.txt">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_bootlocale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="228">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjun/input_6443.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -135,6 +146,8 @@
         <option value="$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py" />
         <option value="$PROJECT_DIR$/Baekjun/input_15649.txt" />
         <option value="$PROJECT_DIR$/Baekjun/15649_N과M.py" />
+        <option value="$PROJECT_DIR$/Baekjun/input_6443.txt" />
+        <option value="$PROJECT_DIR$/Baekjun/6443_애너그램.py" />
       </list>
     </option>
   </component>
@@ -204,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15649_N과M">
+  <component name="RunManager" selected="Python.6443_애너그램">
     <configuration name="10819_차이를최대로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2573_빙산" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="6443_애너그램" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +293,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/2573_빙산.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/6443_애너그램.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,19 +324,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2573_빙산" />
       <item itemvalue="Python.10819_차이를최대로" />
       <item itemvalue="Python.암호화_기출" />
       <item itemvalue="Python.14600_샤워실바닥깔기" />
       <item itemvalue="Python.15649_N과M" />
+      <item itemvalue="Python.6443_애너그램" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6443_애너그램" />
         <item itemvalue="Python.15649_N과M" />
         <item itemvalue="Python.14600_샤워실바닥깔기" />
         <item itemvalue="Python.10819_차이를최대로" />
         <item itemvalue="Python.암호화_기출" />
-        <item itemvalue="Python.2573_빙산" />
       </list>
     </recent_temporary>
   </component>
@@ -349,10 +362,10 @@
       <window_info id="Job Explorer" order="2" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14765458" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14925373" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27252987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042345278" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -365,7 +378,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="3" visible="true" weight="0.40298507" />
+      <window_info anchor="right" id="Debug" order="3" visible="true" weight="0.45895523" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -408,17 +421,34 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="M" />
         <watch expression="N" />
         <watch expression="T" />
+        <watch expression="_" />
         <watch expression="arr" />
         <watch expression="sel" />
+        <watch expression="used" />
         <watch expression="visited" />
+        <watch expression="last_key" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>last_key</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l[i-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nc</expression-string>
         <language-id>Python</language-id>
@@ -454,35 +484,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>check</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pos_len</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cnt</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SWEA/1226_미로1/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SWEA/4875_미로/s1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SWEA/2105_디저트카페/s1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SWEA/1949_등산로조성/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -769,17 +773,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/Baekjun/15649_N과M.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        <state relative-caret-position="19">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjun/15649_N과M.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/input_6443.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/6443_애너그램.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
