@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjun/0_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjun/4963_섬의개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjun/4963_섬의개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/4963_섬의개수.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
     <session id="1507226070">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="8" />
@@ -27,13 +25,13 @@
         <counts>
           <entry key="py" value="43" />
           <entry key="sql" value="10" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="8" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="43" />
           <entry key="SQL" value="2" />
         </counts>
@@ -41,7 +39,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="py" value="6439" />
+          <entry key="py" value="7450" />
           <entry key="sql" value="58" />
           <entry key="txt" value="17" />
         </counts>
@@ -50,7 +48,7 @@
         <counts>
           <entry key="DBN-SQL" value="57" />
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="6439" />
+          <entry key="Python" value="7450" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -58,25 +56,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Baekjun/4963_섬의개수.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="182">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1643208332812" expanded="true" signature="314:692" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Baekjun/0_template.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjun/2468_안전영역.py">
+        <entry file="file://$PROJECT_DIR$/Baekjun/input_4963.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="456">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/Baekjun/6443_애너그램.py" />
         <option value="$PROJECT_DIR$/Programmers/coding_test/티맥스/s1.py" />
         <option value="$PROJECT_DIR$/Programmers/coding_test/티맥스/s2.py" />
+        <option value="$PROJECT_DIR$/Baekjun/input_4963.txt" />
         <option value="$PROJECT_DIR$/Baekjun/4963_섬의개수.py" />
       </list>
     </option>
@@ -199,8 +197,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\티맥스" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\티맥스" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\SQL" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
       <recent name="C:\Users\kimkisol\ssafy-6\99_etc\--------------github--------------\TIL\Algorithm\Programmers\SQL" />
@@ -218,28 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s2">
-    <configuration name="14600_샤워실바닥깔기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/14600_샤워실바닥깔기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.4963_섬의개수">
     <configuration name="15649_N과M" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,6 +251,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/22944_죽음의비.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4963_섬의개수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/4963_섬의개수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,19 +323,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.14600_샤워실바닥깔기" />
       <item itemvalue="Python.15649_N과M" />
       <item itemvalue="Python.6443_애너그램" />
       <item itemvalue="Python.22944_죽음의비" />
       <item itemvalue="Python.s2" />
+      <item itemvalue="Python.4963_섬의개수" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4963_섬의개수" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.6443_애너그램" />
         <item itemvalue="Python.22944_죽음의비" />
         <item itemvalue="Python.15649_N과M" />
-        <item itemvalue="Python.14600_샤워실바닥깔기" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +354,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="DB Browser" order="0" weight="0.329294" />
+      <window_info id="Project Explorer" order="1" />
+      <window_info id="Job Explorer" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.122068234" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23018458" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Diagnostics" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.32675907" />
+    </layout>
+    <layout-to-restore>
       <window_info id="DB Browser" order="0" weight="0.32980832" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
@@ -379,7 +402,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Debug" order="3" weight="0.32302773" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -432,20 +455,24 @@
           <line>54</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Baekjun/4963_섬의개수.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="a_pos" />
-        <watch expression="b_pos" />
-        <watch expression="c_pos" />
-        <watch expression="grid" />
+        <watch expression="arr" />
+        <watch expression="c" />
+        <watch expression="cnt" />
+        <watch expression="h" />
         <watch expression="i" />
-        <watch expression="j" />
-        <watch expression="pos" />
+        <watch expression="lines" />
+        <watch expression="r" />
         <watch expression="visited" />
-        <watch expression="nr" language="Python" />
-        <watch expression="nc" language="Python" />
+        <watch expression="w" />
       </configuration>
     </watches-manager>
   </component>
@@ -499,13 +526,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjun/input_12865.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjun/input_1149.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -818,15 +838,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjun/4963_섬의개수.py">
+    <entry file="file://$PROJECT_DIR$/Baekjun/0_template.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjun/input_4963.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="456">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjun/0_template.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Baekjun/4963_섬의개수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1643208332812" expanded="true" signature="314:692" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
