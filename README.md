@@ -2,6 +2,39 @@
 
 
 
+## 0. TIL
+
+💡 **노션 사이트**
+
+- https://www.notion.so/Kisol-s-notion-f34f8b4f2bbb4006afe268eeef30b7b2
+
+💎 **주제**
+
+- Programming Language
+  - Python 
+  - JavaScript
+  - Java 
+
+- **FrontEnd** 
+  - Vue.js
+  - React
+  - HTML
+  - CSS
+  - Framework/Library
+    - BootStrap
+    - Vuetify 
+- **Backend** 
+  - Django 
+- **코딩(공통) 외** 
+  - Git/Github
+  - 크롤링/API
+
+📕 **진행 방법**
+
+- 수업, 인강, 프로젝트 등을 통해 새로 알게 된 학습 내용 정리
+
+  
+
 ## 1. Algorithm 
 
 💡 **노션 사이트**
