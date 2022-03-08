@@ -1,33 +1,23 @@
-import itertools
+NOTATION = '0123456789ABCDEF'  # 변환용
 
 
-def solution(input_orders, course):
-    answer = []
-    orders = [0] * len(input_orders)
+def numeral_system(number, base):
+    q, r = divmod(number, base)  # number을 base 숫자로 나눈 몫(q), 나머지(r)
+    num = NOTATION[r]  # 추가할 숫자는 나머지를 변환한것
 
-    for i in range(len(input_orders)):
-        orders[i] = sorted(list(input_orders[i]))
+    return numeral_system(q, base) + num if q else num  # 만약 나눌게 남아있다면 재귀 호출 + num, 아니라면 그냥 num return
 
-    for num in course:
-        combs_dict = dict()
-        for order in orders:
-            combs = list(itertools.combinations(order, num))
-            for comb in combs:
-                comb = ''.join(comb)
-                if comb in combs_dict:
-                    combs_dict[comb] += 1
-                else:
-                    combs_dict[comb] = 1
-        if combs_dict.values():
-            max_val = max(combs_dict.values())
-            if max_val >= 2:  # 2.89ms => 1.79ms
-                for key, val in combs_dict.items():
-                    if val == max_val:
-                        answer.append(key)
-        else: break
-        # for key, val in combs_dict.items():
-        #     if val >= 2 and val == max_val:
-        #         answer.append(key)
 
-    answer.sort()
+def solution(n, t, m, p):
+    res = '0'  # 전체 배열
+    answer = ''  # 튜브가 말할 숫자 배열
+
+    x = 1
+    while len(res) < t * m:  # 전체 배열은 튜브가 말할 횟수 x 사람 수와 같거나 크면됨
+        res += numeral_system(x, n)
+        x += 1
+
+    for k in range(p - 1, t * m, m):
+        answer += res[k]
+
     return answer

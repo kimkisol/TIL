@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/n진수게임_kisol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/n진수게임_kisol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
