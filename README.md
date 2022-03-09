@@ -5,10 +5,6 @@
 
 ## 0. TIL
 
-💡 **노션 사이트**
-
-- https://www.notion.so/Kisol-s-notion-f34f8b4f2bbb4006afe268eeef30b7b2
-
 💎 **주제**
 
 - Programming Language
