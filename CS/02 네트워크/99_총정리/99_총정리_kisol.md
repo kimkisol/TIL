@@ -370,17 +370,39 @@
 4. URL에 www.naver.com을 쳤을 때 일어나는 일들을 설명하세요.
 
    ```
-   (답변 참고: [https://owlgwang.tistory.com/1](https://owlgwang.tistory.com/1))
+   [keyword] : DNS, index.html, html파싱, DOM트리, css파싱, Render Tree, Script, 제어권한 자바스크립트 엔진, JS파싱
+   
+   (답변 참고: https://owlgwang.tistory.com/1)
+   1. 브라우저 주소창에 [www.naver.com](http://www.naver.com/) 입력 
+   2. 네이버 서버를 찾아간다.
+   3. DNS(실제 서버가 어디에있는지 알고 있는 서버)가 연결해줄 곳(IP 주소)을 찾음
+   4. (여기서 주소 앞에 https가 붙었다면 https방식으로 통신하겠다.)
+   5. 서버의 기본설정이 대부분 index.html되어 있어 서버에서 이 파일을 클라이언트로 보냄
+   6. 브라우저는 텍스트로 이루어진 index.html 파일을 파싱한다.
+   7. 한줄한줄 읽으면서 DOM트리를 만들어나감.
+   8. 중간에 link태그를 만나 css요청이 발생하면, 요청과 응답과정을 거치고 css를 파싱함
+   9. CSS파싱이 끝나면 중단된 html을 다시읽고 DOM트리를 완성
+   10. 완성된 DOM트리와 CSSOM트리를 합쳐 Render Tree를 만들고 그린다.
+   11. javascript는 중간에 HTML파서는 Script태그를 만나게 되면 javascript 코드를 실행하기 위해 파싱을 중단
+   12. 제어권한을 자바스크립트 엔진에게 넘기고, 자바스크립트 코드 또는 파일을 로드해서 파싱하고 실행
    ```
 
 5. CORS에 대해 설명하세요.
 
    ```
-   
+   [Keyword] : 브라우저, 보안, 출처(URL), 서버, CORS header, 브라우저 및 웹 애플리케이션 보호, 서버 자원관리
    
    [CORS (Cross-Origin Resource Sharing)]
    - CORS란 출처가 다른 리소스도 공유할 수 있도록 하는 정책을 말합니다.
-   - 보안상의 이유로 원칙적으로 출처가 동일한 리소스만 공유할 수 있는데 
+   - Cross-Origin Resource Sharing(교차 출처 자원 공유)의 약자
+   - 추가 HTTP header를 사용하여, 특정 출처에서 실행중인 웹 애플리케이션이 다른 출처의 자원에 접근할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제
+   - 리소스가 자신의 출처(Domain, Protocol, Port)와 다를 때, 교차 출처 HTTP 요청 실행
+   - 보안 상의 이유로 브라우저는 교차 출처 HTTP 요청을 제한 (SOP)
+   - 다른 출처의 리소스를 불러오려면, 그 출처에서 올바른 CORS header를 포함한 응답을 반환해야 함
+       - 서버에서 CORS 허용할 주소를 입력해야 함
+   - 장점
+       - 브라우저 & 웹 애플리케이션 보호
+       - 서버의 자원 관리
    ```
-
+   
    

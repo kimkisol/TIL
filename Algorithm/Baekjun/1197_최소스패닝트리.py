@@ -27,6 +27,7 @@ def kruskal():
         x = edges[idx][0]
         y = edges[idx][1]
 
+        print(p)
         if find_set(x) != find_set(y):
             union(x, y)
             edge_cnt += 1
