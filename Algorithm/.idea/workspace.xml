@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjun/1002_터렛.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjun/2512_예산.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjun/input_1002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/[1차]프렌즈4블록_kisol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjun/1197_최소스패닝트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/1197_최소스패닝트리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/DATETIME에서 DATE로 형 변환.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/DATETIME에서 DATE로 형 변환.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/NULL처리하기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/NULL처리하기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/고양이와개는몇마리있을까.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/고양이와개는몇마리있을까.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/동명 동물 수 찾기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/동명 동물 수 찾기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/루시와엘라찾기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/루시와엘라찾기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/보호소에서 중성화한 동물.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/보호소에서 중성화한 동물.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/없어진기록찾기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/없어진기록찾기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물(1).sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물(1).sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/오랜기간보호한동물(2).sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/우유와요거트가담긴장바구니.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/우유와요거트가담긴장바구니.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/이름에 el이 들어가는 동물 찾기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/이름이없는동물의아이디.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/이름이없는동물의아이디.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/입양시각구하기(1).sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/입양시각구하기(1).sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/있었는데요없었습니다.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/있었는데요없었습니다.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/중복제거하기.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/중복제거하기.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/SQL/헤비유저가소유한장소.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/SQL/헤비유저가소유한장소.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/1_2차원 배열 순회/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/1_2차원 배열 순회/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/5_Kruskal/s1-기본.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/5_Kruskal/s1-기본.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS/02 네트워크/99_총정리/99_총정리_kisol.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CS/02 네트워크/99_총정리/99_총정리_kisol.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/kakao_0911/4.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,16 +152,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/SSAFY/kisol/github/TIL/Algorithm/Programmers/SQL/오랜기간보호한동물(1).sql" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baekjun" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programmers" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\SQL" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\티맥스" />
       <recent name="C:\Users\kimkisol\ssafy-6\99_etc\--------------github--------------\TIL\Algorithm\Programmers\SQL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test" />
     </key>
   </component>
   <component name="RunManager" selected="Python.1002_터렛">
