@@ -29,5 +29,4 @@ def solution(input_orders, course):
         #     if val >= 2 and val == max_val:
         #         answer.append(key)
 
-    answer.sort()
-    return answer
+    return sorted(answer)

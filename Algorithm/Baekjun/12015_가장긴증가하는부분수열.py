@@ -7,15 +7,29 @@ import sys
 
 sys.stdin = open('input_12015.txt')
 
-T = int(input())
 
-for _ in range(T):
-    x1, y1, r1, x2, y2, r2 = map(int, input().split())
-    d = math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
+def dfs(now, l, lst):
+    global max_len
 
-    if d == 0:
-        if r1 != r2: print(0)
-        else: print(-1)
-    elif abs(r1 - r2) < d < r1 + r2: print(2)
-    elif d == abs(r1 - r2) or d == r1 + r2: print(1)
-    else: print(0)
+    print(lst)
+
+    flag = False
+    for j in range(now + 1, N):
+        if arr[j] > arr[now]:
+            flag = True
+            dfs(j, l + 1, lst + [arr[j]])
+    if not flag and l > max_len:
+        max_len = l
+        return
+
+
+N = int(input())
+arr = list(map(int, input().split()))
+max_len = 1
+
+for i in range(N - 1):
+    if i <= N - max_len:
+        print('i', i)
+        dfs(i, 1, [arr[i]])
+
+print(max_len)
