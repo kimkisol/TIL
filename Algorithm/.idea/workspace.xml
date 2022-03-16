@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Baekjun/1051_숫자정사각형.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjun/input_1051.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/양궁대회_kisol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjun/12015_가장긴증가하는부분수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/12015_가장긴증가하는부분수열.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/메뉴리뉴얼_kisol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/메뉴리뉴얼_kisol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,23 +159,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/SSAFY/kisol/github/TIL/Algorithm/Programmers/SQL/오랜기간보호한동물(1).sql" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baekjun" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\가비아_220313" />
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\SK_ICT_220312" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\SQL" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\kakao_210911" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\가비아_220313" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\SK_ICT_220312" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s5">
-    <configuration name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1051_숫자정사각형">
+    <configuration name="1051_숫자정사각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/1051_숫자정사각형.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,11 +204,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/kakao_210911" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313/s3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/kakao_210911/4-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,11 +225,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/kakao_210911" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313/s4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/kakao_210911/4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="양궁대회_kisol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/양궁대회_kisol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,41 +280,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/가비아_220313/s6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.s2 (1)" />
-      <item itemvalue="Python.s3" />
-      <item itemvalue="Python.s4" />
       <item itemvalue="Python.s5" />
-      <item itemvalue="Python.s6" />
+      <item itemvalue="Python.4" />
+      <item itemvalue="Python.4-2" />
+      <item itemvalue="Python.양궁대회_kisol" />
+      <item itemvalue="Python.1051_숫자정사각형" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1051_숫자정사각형" />
+        <item itemvalue="Python.양궁대회_kisol" />
+        <item itemvalue="Python.4-2" />
+        <item itemvalue="Python.4" />
         <item itemvalue="Python.s5" />
-        <item itemvalue="Python.s6" />
-        <item itemvalue="Python.s4" />
-        <item itemvalue="Python.s3" />
-        <item itemvalue="Python.s2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -513,18 +514,37 @@
           <line>93</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/coding_test/kakao_210911/4-2.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/coding_test/kakao_210911/4.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/양궁대회_kisol.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Baekjun/1051_숫자정사각형.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="prices[i]" language="Python" />
-        <watch expression="hold" />
-        <watch expression="answer" language="Python" />
-        <watch expression="i" />
-        <watch expression="idx" />
-        <watch expression="prices" />
-        <watch expression="total" />
-        <watch expression="buy" />
+        <watch expression="arr[i][j]" language="Python" />
+        <watch expression="arr[i+l][j]" language="Python" />
+        <watch expression="arr[i][j+l]" language="Python" />
+        <watch expression="arr[i+l][j+l]" language="Python" />
+        <watch expression="res" language="Python" />
+        <watch expression="limit_l" language="Python" />
+        <watch expression="arr" language="Python" />
       </configuration>
     </watches-manager>
   </component>
