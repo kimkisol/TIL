@@ -4,6 +4,7 @@ import math
 # KB / 76ms
 # input = sys.stdin.readline
 '''
+제일 큰거부터 찾기
 '''
 
 sys.stdin = open('input_1051.txt')
