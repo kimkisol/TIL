@@ -1,26 +1,27 @@
 import sys
 
-# KB / 72ms
+# KB / 160ms
 # input = sys.stdin.readline
 '''
 '''
 
-sys.stdin = open('input_11057.txt')
+sys.stdin = open('input_14425.txt')
 
-T = int(input())
+N, M = map(int, input().split())
+M_dict = {}
 
-for _ in range(T):
-    N = int(input())
-    dp = [[0] * 10 for _ in range(N)]
+res = 0
+N_arr = set(input() for _ in range(N))
+for _ in range(M):
+    word = input()
+    if word in M_dict.keys():
+        M_dict[word] += 1
+    else:
+        M_dict[word] = 1
+M_arr = set(M_dict.keys())
 
-    for i in range(1, N):
-        dp[i][0] = 1
+crossed = N_arr & M_arr
+for word in crossed:
+    res += M_dict[word]
 
-    for j in range(10):
-        dp[0][j] = j + 1
-
-    for i in range(1, N):
-        for j in range(1, 10):
-            dp[i][j] = dp[i][j - 1] + dp[i - 1][j]
-
-    print(dp[N - 1][9] % 10007)
+print(res)

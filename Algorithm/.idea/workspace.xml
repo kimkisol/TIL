@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjun/input_14425.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/input_14425.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +158,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/SSAFY/kisol/github/TIL/Algorithm/Programmers/SQL/오랜기간보호한동물(1).sql" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baekjun" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\LINE_220326" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\LINE_220326" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\SK_ICT_2차_220319" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\kakao_210911" />
@@ -171,8 +173,8 @@
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s2 (1)">
-    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.14425_문자열집합">
+    <configuration name="14425_문자열집합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,19 +280,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s2 (1)" />
       <item itemvalue="Python.s3" />
       <item itemvalue="Python.s5" />
       <item itemvalue="Python.s6" />
+      <item itemvalue="Python.14425_문자열집합" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14425_문자열집합" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s6" />
         <item itemvalue="Python.s5" />
         <item itemvalue="Python.s3" />
-        <item itemvalue="Python.s1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -560,6 +562,11 @@
           <url>file://$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s6.py</url>
           <line>61</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Baekjun/14425_문자열집합.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
