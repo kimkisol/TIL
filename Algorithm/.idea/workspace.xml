@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2089df-ee38-4043-8dcd-a5851443d31b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjun/input_14425.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjun/input_14425.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,23 +156,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/SSAFY/kisol/github/TIL/Algorithm/Programmers/SQL/오랜기간보호한동물(1).sql" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baekjun" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programmers/coding_test/의식주컴퍼니_220414" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\의식주컴퍼니_220414" />
+      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\dev-matching_220402" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Baekjun" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\LINE_220326" />
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\SK_ICT_2차_220319" />
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers" />
-      <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test\kakao_210911" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\kisol\github\TIL\Algorithm\Programmers\coding_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.14425_문자열집합">
-    <configuration name="14425_문자열집합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s3 (2)">
+    <configuration name="dd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjun" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjun/14425_문자열집합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/dd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +201,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/오늘의집_220409" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/오늘의집_220409/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/오늘의집_220409" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/오늘의집_220409/s3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s3 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/신세계아이앤씨_220416" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/신세계아이앤씨_220416/s3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,53 +264,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/dev-matching_220402" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/LINE_220326/s6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/coding_test/dev-matching_220402/s3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,18 +278,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s2 (1)" />
       <item itemvalue="Python.s3" />
-      <item itemvalue="Python.s5" />
-      <item itemvalue="Python.s6" />
-      <item itemvalue="Python.14425_문자열집합" />
+      <item itemvalue="Python.s3 (1)" />
+      <item itemvalue="Python.s2 (1)" />
+      <item itemvalue="Python.dd" />
+      <item itemvalue="Python.s3 (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14425_문자열집합" />
+        <item itemvalue="Python.s3 (2)" />
+        <item itemvalue="Python.dd" />
         <item itemvalue="Python.s2 (1)" />
-        <item itemvalue="Python.s6" />
-        <item itemvalue="Python.s5" />
+        <item itemvalue="Python.s3 (1)" />
         <item itemvalue="Python.s3" />
       </list>
     </recent_temporary>
@@ -568,12 +566,29 @@
           <line>14</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/coding_test/dev-matching_220402/s2.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/coding_test/오늘의집_220409/s3.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/coding_test/dd.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="abilities" />
-        <watch expression="k" />
+        <watch expression="memo[x]" language="Python" />
+        <watch expression="memo" language="Python" />
+        <watch expression="fib3(x-1)" language="Python" />
+        <watch expression="fib3(x-2)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
