@@ -20,8 +20,7 @@ def dfs(row, col, N, arr, visited):
     if res == 'HaruHaru':
       return 'HaruHaru'
   
-  return 'Hing'
-      
+  return 'Hing'      
 
 N = int(input())
 arr = [list(map(int, input().split())) for _ in range(N)]
